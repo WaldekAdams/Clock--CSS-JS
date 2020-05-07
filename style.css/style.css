@@ -16,7 +16,9 @@ div.circle {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 10px darkblue;
+    box-shadow: 0px 0px 10px darkblue,
+        inset 0 0 0 11px rgb(4, 10, 43),
+        inset 0 0 0 13px wheat;
     border-radius: 50%;
 
 }
@@ -27,7 +29,6 @@ div.circle div.clock {
     height: 100%;
     border: 7px solid rgb(2, 2, 90);
     border-radius: 50%;
-
 }
 
 div.circle div.clock .hand {
@@ -37,4 +38,6 @@ div.circle div.clock .hand {
     width: 45%;
     height: 2%;
     background-color: black;
+    transform-origin: 100%;
+    transform: rotate(90deg);
 }
