@@ -36,8 +36,12 @@ div.circle div.clock .hand {
     top: 50%;
     right: 50%;
     width: 45%;
-    height: 2%;
+    height: 1%;
     background-color: black;
     transform-origin: 100%;
     transform: rotate(90deg);
+}
+
+div.circle div.clock .hand.second {
+    background-color: rgb(138, 8, 8);
 }
