@@ -6,6 +6,8 @@
 
 body {
     min-height: 100vh;
+    background-image: url(/jpg/sweets-2995158_1920.jpg);
+    background-size: cover;
 }
 
 
@@ -29,6 +31,7 @@ div.circle div.clock {
     height: 100%;
     border: 7px solid rgb(2, 2, 90);
     border-radius: 50%;
+    background-color: rgba(248, 243, 239, 0.7);
 }
 
 div.circle div.clock .hand {

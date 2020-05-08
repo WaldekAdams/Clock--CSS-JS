@@ -19,7 +19,7 @@ function setDate() {
 
 
     hour = nowTime.getHours();
-    hourDeg = ((hour / 24) * 360) + 90
+    hourDeg = hour * (360 / 12) + 90
     console.log(hour);
     handHour.style.transform = `rotate(${hourDeg}deg)`
 
